@@ -1,0 +1,275 @@
+/* GENERAL */
+
+/*    text-shadow: 0 1px 0 #FFFFFF; aplicar shadow a texto negro para un efecto coool */
+
+body{
+	/*
+    background: url(http://api.thumbr.it/whitenoise-50x50.png?background=158f66ff&noise=adadad&density=15&opacity=16);*/
+    background: #336E7B;
+    background-repeat: repeat;
+    margin:0;
+}
+
+.titulo{
+	text-align: center;
+	text-shadow: 0 1px 0 #666666;
+	color:white;
+}
+
+.txt-sdw-gray{
+   text-shadow: 0 1px 0 #666666 !important;
+}
+
+hr {
+ 	border-style: solid;
+ 	text-align: center;
+ 	max-width: 991px;
+}
+
+.row {
+	margin: auto;
+}
+
+.navbar-default, .navbar-inverse{
+	margin-bottom:0;
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#registro small{
+	color:#fff;
+}
+
+#ingresar:before{
+  content: "\f090";
+}
+
+#ir_home:before{
+  content: "\f002";
+}
+
+#crear_pub:before{
+  content: "\f044";
+}
+
+/* Rotate */
+.hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* INDEX.PHP */
+
+.bloque {
+	min-height: 660px;
+	width: 100%;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size:1.1em;
+}
+
+.bloque h1{
+	margin-top:140px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+	margin-bottom: 30px;
+}
+
+.bloque h2, .bloque p{
+	margin-bottom: 40px;
+}
+
+#logo-navbar {
+	max-width: 162.5px;
+	max-height: 49px;
+}
+
+#primero{
+	margin-top:50px;
+	background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/puppies.jpg") no-repeat fixed top;
+	background-size: cover;
+}
+
+#primero p{
+	max-width: 450px;
+	position:relative;
+	margin:auto;
+}
+
+#segundo{
+	background: linear-gradient(0deg, rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../img/cutecats.jpg") no-repeat fixed top;
+	background-size: cover;
+	color:black;
+}
+
+#segundo h1{
+	color:black;
+}
+
+#segundo p{
+	text-align: justify;
+	margin: 8% auto;
+}
+
+
+#tercero{
+	background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/segundo.jpg") no-repeat fixed top;
+	background-size: cover;
+}
+
+#group-btn-home a {
+	min-width: 250px;
+	margin: 5px;
+}
+
+#group-btn-home {
+	display: block;
+	position: relative;
+	top: 100px;
+}
+
+#ir_home, #crear_pub{
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+}
+
+#titulo1, #titulo2, #titulo3{
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+}
+
+#parrafo1{
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+}
+
+#ventajas1, #subtitulo1, #p1{
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+}
+
+#ventajas2, #subtitulo2, #p2{
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+}
+
+#ventajas3, #subtitulo3, #p3{
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+}
+
+#parrafo3{
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+}
+
+#link3{
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+}
+
+
+
+.info {
+	width:250px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+	.info {margin:0 auto;padding: 20px;text-align: left;}
+   	.bloque h1 { font-size: 2.5em;}
+   	.bloque h2 { font-size: 1.7em;}
+   	.bloque p { font-size: 1.2em;}
+   	.bloque img {height:7em}
+   	#sub-login {width: 100%;margin: 0 auto;}
+}
+
+@media only screen and (max-width: 600px) {
+	.bloque h1 {font-size: 2em;}
+	.bloque h2 { font-size: 1.7em;}
+	.bloque p { font-size: 0.9em;}
+	.bloque img {height:5em}
+}
+
+@media only screen and (min-width: 768px) {
+   .bloque h1 { font-size: 3em;}
+   .bloque h2 { font-size: 2em;}
+   .bloque p { font-size: 1.1em;}
+   .bloque img {height:9em}
+   #sub-login {width: 100%;max-width: 500px;margin: 0 auto;}
+}
+
+/* LOGIN.PHP */
+
+#form-login{
+	width:100%;
+	max-width:768px;
+	margin: 0 auto;
+	color:#fff;
+}
+
+#sub-login .row {
+	margin: 0;
+}
+
+#sub-login a{
+	text-decoration: none;
+}
+
+#btn-login {
+	margin: 0;
+}
+
+
+/* HOME.PHP */
+
+/* Search Bar */
+
+input.search-query {
+    padding-left:26px;
+}
+
+.search-group {
+    position: relative;
+    width:100%;
+    max-width: 500px;
+    margin: 30px auto 20px auto;
+}
+
+.search-group:before {
+    display: block;
+    width: 14px;
+    height: 14px;
+    content: "\e003";
+    font-family: 'Glyphicons Halflings';
+    background-position: -48px 0;
+    position: absolute;
+    top:8px;
+    left:8px;
+    opacity: .5;
+    z-index: 1000;
+}
+
+/** CREAR PUBLICACION MODALS **/
+#frmCrearPublicacion label{
+  color:black;
+}

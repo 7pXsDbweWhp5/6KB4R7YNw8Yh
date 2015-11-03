@@ -1,0 +1,50 @@
+#mantenedores:before{
+  	content: "\f013";
+}
+
+#cerrar_sesion:before{
+  	content: "\f08b";
+}
+
+#adm_users:before{
+  	content: "\f0c0";
+}
+
+#adm_pubs:before{
+  	content: "\f044";
+}
+
+#adm_countries:before{
+  	content: "\f013";
+}
+
+#adm_cities:before{
+  	content: "\f013";
+}
+
+#adm_species:before{
+  	content: "\f013";
+}
+
+#adm_races:before{
+	content: "\f013";
+}
+
+#adm_reportes:before{
+	content: "\f024";
+}
+
+#mantenedores {
+	width: 140px;
+	text-align: left;
+}
+
+#sub-menu-align{
+	width: 225px;
+	text-align: left;
+}
+
+.mantencion {
+	width: 100%;
+	max-width: 960px;
+}

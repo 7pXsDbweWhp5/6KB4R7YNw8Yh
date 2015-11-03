@@ -1,0 +1,19 @@
+.filtro {
+	width: 100%;
+	max-width: 250px;
+	height: 100%;
+	max-height:520px;
+	background-color: #fff;
+	padding: 10px;
+	display:inline-block;
+	margin-top:10px;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+	border-color: #B2B2B2;
+}
+
+#filtrar{
+	margin: 15px auto 5px auto;
+	width:53px;
+}

@@ -1,0 +1,107 @@
+
+#titulo_perfil{
+	height:80px;
+	background: #fff;
+	padding:22px;
+}
+
+label{
+	color:white;
+}
+
+#form_perfil{
+	max-width:991px;	
+}
+
+#datos{
+	width:100%;
+	max-width:410px;
+	display:inline-block;
+	margin:auto auto 30px 10px;
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#avatar{
+	text-align: center;
+	width:100%;
+	max-width:300px;
+	display:inline-block;
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#mdAvatar{
+	text-align: center;
+	width:100%;
+	max-width:300px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin:auto auto 20px auto;
+}
+
+#mdAvatar label {
+	color: black;
+}
+
+#form_perfil #sub_menu{
+	float:right;
+	margin-top:20px;
+}
+
+.form-group{
+	margin:0;
+}
+
+.fileInput{
+	width:147px;
+	margin:auto;
+}
+
+#pfButtons{
+	margin: 20px auto;
+	width: 100%;
+}
+
+#preview-avatar{
+	height: 200px;
+	width: 200px;
+}
+
+
+#mdChangeEmail label, #mdChangePass label, #mdDeleteAccount label {
+	color: #3F3F3F;
+}
+
+#mdChangeEmail .form-group, #mdChangePass .form-group, #mdDeleteAccount .form-group {
+	margin:5px;
+}
+
+@media only screen and (max-width: 991px) {
+	#sub_menu{
+		width:100%;
+		margin-top:0;
+	}
+	fieldset{
+		min-width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	#avatar{
+		max-width:100%;
+	}
+	#datos{
+		max-width:100%;
+		margin:10px 0;
+	}
+	#rgDay,#rgMonth,#rgYear{
+	margin-top:5px;
+	}
+	fieldset{
+		min-width: 100%;
+	}
+}
+
+

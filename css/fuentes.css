@@ -1,0 +1,37 @@
+@font-face {
+	font-family: roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: roboto_italic;
+	src: url(../fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+	font-family: roboto_black_italic;
+	src: url(../fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+	font-family: sourcesans;
+	src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+	font-family: sourcesans_italic;
+	src: url(../fonts/SourceSansPro-Italic.ttf);
+}
+
+@font-face {
+	font-family: oswald_bold;
+	src: url(../fonts/Oswald-Bold.ttf);
+}
+@font-face {
+	font-family: oswald_light;
+	src: url(../fonts/Oswald-Light.ttf);
+}
+@font-face {
+	font-family: oswald_regular;
+	src: url(../fonts/Oswald-Regular.ttf);
+}

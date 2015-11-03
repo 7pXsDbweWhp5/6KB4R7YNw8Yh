@@ -1,0 +1,153 @@
+.formulario{
+  width: 100%;
+  max-width: 991px;
+  /*
+  height: 100%;
+  min-height: 92vh;
+  box-shadow: 1px 0px #fff, -1px 0px #fff;*/
+}
+
+label{
+  color:white;
+}
+
+.txt-sdw-gray{
+   text-shadow: 0 1px 0 #666666;
+}
+
+#modalEmail label{
+  color: #3F3F3F;
+}
+
+.formulario .row{
+	margin: auto auto 0.5em auto;
+}
+
+#ingresar:before{
+  content: "\f090";
+}
+
+.centrado {
+  max-width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+#preview-avatar{
+  width: 150px;
+  height: 150px;
+  margin:0.5em auto 0.5em auto;
+}
+
+.btn-margin{
+  margin-bottom: 1em;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .btn-margin .btn {
+    width:100% !important;
+  }
+
+  #btn-login{
+    width:100%;
+  }
+
+  .sub-registro .btn-style{
+    width: 100%;
+    margin-top: 0.5em;
+  }
+
+  .ancho {
+    width:100%;
+  }
+
+  #crtDescripcion{
+    max-width: 100%;
+  }
+
+  #pais {
+		max-width:100%;
+  }
+
+  #ciudad, #name, #apPaterno, #apMaterno, #direccion, #telefono,
+  #email, #emailCfm, #pass, #passCfm {
+   	width:100%;
+  }
+
+  .datos{
+    width: 100%;
+  }
+
+  .avatar{
+    width:100%;
+  }
+
+  .sub-registro{
+    width:100%;
+  }
+
+  .reg-fecha{
+    margin: auto auto 5px auto;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .btn-margin .btn {
+    width:100% !important;
+  }
+
+  .sub-registro .btn-style{
+    width: 150px;
+    margin-top: 1em;
+  }
+
+  .sub-registro .form-group{
+    margin: auto auto auto 1em;
+  }
+
+  .ancho {
+    width:168px !important;
+  }
+
+  #crtDescripcion{
+    width:354px;
+  }
+
+  #pais {
+    width:100%;
+		max-width:168px;
+  }
+
+  #ciudad, #name, #apPaterno, #apMaterno, #direccion, #telefono,
+    #email, #emailCfm, #pass, #passCfm {
+   		width:168px;
+  }
+
+  .datos{
+    width: 100%;
+    max-width: 380px;
+    float:left;
+  }
+
+  .avatar{
+    width:100%;
+    max-width: 164px;
+    float:right
+  }
+
+  .sub-registro {
+    max-width: 580px;
+    margin-bottom:15px;
+  }
+
+  .reg-fecha{
+    margin: auto 5px auto auto;
+    float: left;
+  }
+}
+
+.help-block{
+  margin-bottom:0 !important;
+}

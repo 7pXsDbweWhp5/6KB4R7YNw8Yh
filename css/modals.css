@@ -1,0 +1,20 @@
+#mdPreguntas label{
+  color: #3F3F3F;
+}
+
+#mdPreguntas .form-group{
+  width:90%;
+}
+
+#mdPreguntas select {
+  width:100%;
+}
+
+#mdOpciones label {
+  color: #3F3F3F;
+}
+
+#mdOpciones {
+  margin-top: 10px;
+  margin-left: 30px;
+}
